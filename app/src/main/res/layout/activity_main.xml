@@ -11,32 +11,35 @@
 
 
     <TextView
-        android:layout_width="350dp"
-        android:layout_height="102dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="18dp"
-        android:padding="33dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="30dp"
         android:text="Calcluate Before You Eat"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="22dp" />
 
     <EditText
         android:id="@+id/dish1EditText"
         android:layout_width="match_parent"
-        android:layout_height="74dp"
+        android:layout_height="55dp"
         android:hint="Dish 1 Amount"
         android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/dish2EditText"
         android:layout_width="match_parent"
-        android:layout_height="67dp"
+        android:layout_height="60dp"
         android:hint="Dish 2 Amount"
         android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/sweetEditText"
         android:layout_width="match_parent"
-        android:layout_height="62dp"
+        android:layout_height="58dp"
         android:hint="Sweet Amount"
         android:inputType="numberDecimal" />
 
